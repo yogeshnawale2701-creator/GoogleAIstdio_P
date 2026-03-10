@@ -1,0 +1,8 @@
+{
+  "name": "Yogesh Nawale | DevOps & Cloud Explorer",
+  "description": "Portfolio of Yogesh Vishnu Nawale, a BCA student and DevOps & Cloud learner specializing in Java, PHP, and Cloud Infrastructure.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
