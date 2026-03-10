@@ -19,11 +19,8 @@ This is the personal portfolio website for Yogesh Vishnu Nawale, a BCA student a
    ```bash
    npm install
    ```
-2. Set the `GEMINI_API_KEY` in your `.env` or `.env.local` to your Google Gemini API key:
-   ```env
-   GEMINI_API_KEY=your_api_key_here
-   ```
-3. Run the app:
+
+2. Run the app:
    ```bash
    npm run dev
    ```
