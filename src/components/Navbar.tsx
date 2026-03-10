@@ -27,14 +27,14 @@ export function Navbar() {
 
   return (
     <nav className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${scrolled ? 'bg-black/80 backdrop-blur-md py-4' : 'bg-transparent py-6'}`}>
-      <motion.div 
+      <motion.div
         className="absolute bottom-0 left-0 right-0 h-[2px] bg-indigo-500 origin-left"
         style={{ scaleX }}
       />
-      
+
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
         <a href="#hero" className="text-2xl font-bold text-white tracking-tighter flex items-center gap-2">
-          <div className="w-8 h-8 bg-indigo-600 rounded-lg flex items-center justify-center text-sm">YN</div>
+          <img src="/yvn-logo.png" alt="YVN Logo" className="w-8 h-8 rounded-lg object-cover" />
           <span className="hidden sm:inline">Yogesh Nawale</span>
         </a>
 
@@ -53,20 +53,20 @@ export function Navbar() {
           ))}
           <div className="h-4 w-px bg-white/20 mx-2" />
           <div className="flex items-center gap-4">
-            <motion.a 
+            <motion.a
               whileHover={{ scale: 1.2, rotate: 10 }}
               whileTap={{ scale: 0.8 }}
-              href="https://github.com/yogeshnawale2701-creator" 
+              href="https://github.com/yogeshnawale2701-creator"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-colors"
             >
               <Github className="w-5 h-5" />
             </motion.a>
-            <motion.a 
+            <motion.a
               whileHover={{ scale: 1.2, rotate: -10 }}
               whileTap={{ scale: 0.8 }}
-              href="https://www.linkedin.com/in/yogesh-nawale-10218225b/" 
+              href="https://www.linkedin.com/in/yogesh-nawale-10218225b/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-colors"

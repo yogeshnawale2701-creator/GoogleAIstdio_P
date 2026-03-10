@@ -13,7 +13,6 @@ import { Projects } from './sections/Projects';
 import { Contact } from './sections/Contact';
 import { Scene } from './components/Scene';
 import { CustomCursor } from './components/CustomCursor';
-import { ChatBot } from './components/ChatBot';
 import { ClickRipple } from './components/ClickRipple';
 
 export default function App() {
@@ -22,7 +21,7 @@ export default function App() {
       <CustomCursor />
       <ClickRipple />
       <Navbar />
-      
+
       {/* 3D Background removed to avoid WebGL context conflicts */}
       <div className="fixed inset-0 z-0 bg-[#050505]" />
 
@@ -45,8 +44,6 @@ export default function App() {
           </div>
         </div>
       </footer>
-
-      <ChatBot />
     </div>
   );
 }
